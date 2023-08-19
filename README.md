@@ -1,6 +1,6 @@
 # stackoverflow-clone-vijay
 
-ull Stack StackOverflow Web Application
+full Stack StackOverflow Web Application
 
 Welcome to the Full Stack StackOverflow Web Application repository! This repository contains a complete web application built with a client and server architecture, designed to replicate the functionalities of the StackOverflow platform. We encourage you to clone this repository, explore the codebase, and contribute to further enhancing the project.
 
