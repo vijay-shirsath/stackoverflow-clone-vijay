@@ -1,0 +1,66 @@
+// 1 shell command for installing require dependencies for this project
+
+V@DESKTOP-JFV06IJ MINGW64 ~
+$ cd mySite/sta
+bash: cd: mySite/sta: No such file or directory
+
+V@DESKTOP-JFV06IJ MINGW64 ~
+$ cd mySite/StackOverFlow-clone-Project/server/
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/server
+$ ls
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/server
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (server)
+version: (1.0.0)
+description: this is the StackOverFLow clone app
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Vijay Shirsath
+license: (ISC)
+About to write to C:\Users\V\mySite\StackOverFlow-clone-Project\server\package.json:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is the StackOverFLow clone app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vijay Shirsath",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/server
+$ ls
+package.json
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/server
+$ npm i bcryptjs jsonwebtoken cors dotenv express mongoose nodemon
+
+added 127 packages, and audited 128 packages in 25s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/server
+$

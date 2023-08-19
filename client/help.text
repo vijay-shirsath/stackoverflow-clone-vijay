@@ -1,0 +1,118 @@
+// 1 shell command for installing require dependencies for this project
+
+V@DESKTOP-JFV06IJ MINGW64 ~
+$ cd mySite/
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite
+$ ls
+ __MACOSX/             boostrap/     hyper/    index.html    JQuery/          'ready sites'/
+ BackendDevelopment/   favicon.ico   images/   JAVASCRIPT/   NextJSProjects/   styles.css
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite
+$ mkdir StackOverFlow-clone-Project
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite
+$ cd StackOverFlow-clone-Project/
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project
+$ ls
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project
+$ ls
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project
+$ mkdir client server
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project
+$ ls
+client/  server/
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project
+$ cd client/
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/client
+$ ls
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/client
+$ npx create-react-app ./
+
+Creating a new React app in C:\Users\V\mySite\StackOverFlow-clone-Project\client.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1421 packages in 5m
+
+234 packages are looking for funding
+  run `npm fund` for details        
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 62 packages, and changed 1 package in 18s
+
+234 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1483 packages in 7s
+
+234 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created client at C:\Users\V\mySite\StackOverFlow-clone-Project\client
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd C:\Users\V\mySite\StackOverFlow-clone-Project\client
+  npm start
+
+Happy hacking!
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/client (master)
+$ ls
+node_modules/  package.json  package-lock.json  public/  README.md  src/
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/client (master)
+$ npm add axios jwt-decode moment react-copy-to-clipboard react-router-dom redux react-redux redux-thunk
+
+added 20 packages, and audited 1503 packages in 20s
+
+234 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+V@DESKTOP-JFV06IJ MINGW64 ~/mySite/StackOverFlow-clone-Project/client (master)
+$npm start
